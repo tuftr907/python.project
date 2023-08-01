@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('patient_records.db')
+conn = sqlite3.connect('file_name.db')
 c = conn.cursor()
 
 c.execute('''CREATE TABLE IF NOT EXISTS patients
