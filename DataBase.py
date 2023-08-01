@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('patient_records.db') 
+conn = sqlite3.connect('file_name.db') 
 cursor = conn.cursor()
 cursor.execute('SELECT * FROM patients')
 rows = cursor.fetchall()
